@@ -14,15 +14,7 @@ public class TextManger : MonoBehaviour
     {
         if (PlayerData.instance.NumberOfHints <= 0)
         {
-            if (Purchaser.instance.isEnabled)
-            {
-                shopUI.Show();
-            }
-            else
-            {
-                rewardedButton.OnClick();
-            }
-            return;
+            shopUI.Show();
         }
 
         showHint++;

@@ -12,10 +12,10 @@ public class UnlockPackageDialog : MonoBehaviour
         Purchaser.instance.onItemPurchased += OnItemPurchased;
 #endif
 
-        if (!Purchaser.instance.isEnabled)
-        {
-            playButton.SetActive(false);
-        }
+        // if (!Purchaser.instance.isEnabled)
+        // {
+        //     playButton.SetActive(false);
+        // }
     }
 
     public void Show(string[] worldsName, int showMessageForWorld)
@@ -24,7 +24,7 @@ public class UnlockPackageDialog : MonoBehaviour
         messageText.text = message;
         worldNameText.text = worldsName[showMessageForWorld - 1];
 
-        priceText.text = "$" + Purchaser.instance.iapItems[1].price;
+        priceText.text = "$" + 0;
         gameObject.SetActive(true);
     }
 

@@ -70,10 +70,10 @@ public class UIController : MonoBehaviour
 
         CUtils.CloseBannerAd();
 
-        if (!Purchaser.instance.isEnabled)
-        {
-            shopImage.sprite = rateSprite;
-        }
+        // if (!Purchaser.instance.isEnabled)
+        // {
+        //     shopImage.sprite = rateSprite;
+        // }
     }
 
     public void PlayButtonSound()
@@ -324,14 +324,15 @@ public class UIController : MonoBehaviour
 
     public void OnShopClick()
     {
-        if (Purchaser.instance.isEnabled)
-        {
-            shopDialog.Show();
-        }
-        else
-        {
-            CUtils.OpenStore();
-        }
+        // if (Purchaser.instance.isEnabled)
+        // {
+        //     shopDialog.Show();
+        // }
+        // else
+        // {
+        //     CUtils.OpenStore();
+        // }
+        shopDialog.Show();
     }
 
     private void Update()

@@ -40,21 +40,21 @@ public class IAPChecker : EditorWindow
 
 	public static void CheckItNow()
 	{
-		if (Directory.Exists ("Assets/Plugins/UnityPurchasing/Bin"))
-		{
-			SetScriptingDefineSymbols ();
-
-            if (Instance != null)
-            {
-                Instance.Close();
-            }
-		}
-		else
-		{ 
-			OpenWelcomeWindow();
-		}
-
-		EditorApplication.update -= CheckItNow; 
+		// if (Directory.Exists ("Assets/Plugins/UnityPurchasing/Bin"))
+		// {
+		// 	SetScriptingDefineSymbols ();
+  //
+  //           if (Instance != null)
+  //           {
+  //               Instance.Close();
+  //           }
+		// }
+		// else
+		// { 
+		// 	OpenWelcomeWindow();
+		// }
+  //
+		// EditorApplication.update -= CheckItNow; 
 	}
 
 	static void SetScriptingDefineSymbols () 
