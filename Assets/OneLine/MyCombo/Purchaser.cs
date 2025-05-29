@@ -237,6 +237,12 @@ public class Purchaser : MonoBehaviour, IStoreListener
         Debug.Log("OnInitializeFailed InitializationFailureReason:" + error);
     }
 
+    public void OnInitializeFailed(InitializationFailureReason error, string message)
+    {
+        // Purchasing set-up has not succeeded. Check error for reason. Consider sharing this reason with the user.
+        Debug.Log("OnInitializeFailed InitializationFailureReason:" + error + " Message: " + message);
+    }
+
 
     public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs args)
     {
