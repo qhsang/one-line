@@ -11,7 +11,7 @@ public class MoanaWindowEditor
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
-        File.Delete(Application.persistentDataPath + "/userInfo3.dat");
+        File.Delete(Application.persistentDataPath + "/data.dat");
     }
 
     [MenuItem("Moana Games/Unlock all levels")]
@@ -36,7 +36,7 @@ public class MoanaWindowEditor
 
         BinaryFormatter bf = new BinaryFormatter();
 
-        FileStream f = File.Open(Application.persistentDataPath + "/userInfo3.dat", FileMode.OpenOrCreate);
+        FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.OpenOrCreate);
 
         PlayerData.PlayerDataObj userData = new PlayerData.PlayerDataObj
         {

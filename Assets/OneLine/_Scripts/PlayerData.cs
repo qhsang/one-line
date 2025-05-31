@@ -115,11 +115,11 @@ public class PlayerData : MonoBehaviour
 
     public void LoadData()
     {
-        if (File.Exists(Application.persistentDataPath + "/userInfo3.dat"))
+        if (File.Exists(Application.persistentDataPath + "/data.dat"))
         {
             BinaryFormatter bf = new BinaryFormatter();
 
-            FileStream f = File.Open(Application.persistentDataPath + "/userInfo3.dat", FileMode.Open);
+            FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.Open);
             PlayerDataObj userData = (PlayerDataObj)bf.Deserialize(f);
 
             TotalLevelCrossed = userData.levelcross;
@@ -173,7 +173,7 @@ public class PlayerData : MonoBehaviour
     {
         BinaryFormatter bf = new BinaryFormatter();
 
-        FileStream f = File.Open(Application.persistentDataPath + "/userInfo3.dat", FileMode.OpenOrCreate);
+        FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.OpenOrCreate);
 
         PlayerDataObj userData = new PlayerDataObj
         {
