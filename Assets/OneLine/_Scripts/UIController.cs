@@ -76,6 +76,12 @@ public class UIController : MonoBehaviour
         }
     }
 
+    public void Exit()
+    {
+        Sound.instance.PlayButton();
+        Application.Quit();
+    }
+
     public void PlayButtonSound()
     {
         Sound.instance.PlayButton();
