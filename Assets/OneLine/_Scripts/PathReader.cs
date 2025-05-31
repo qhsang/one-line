@@ -44,16 +44,13 @@ public class PathReader : MonoBehaviour
     {
         if (isStarted)
         {
-
             Vector2 pos1 = new Vector2(GameObject.FindObjectOfType<DotAnimation>().transform.position.x, GameObject.FindObjectOfType<DotAnimation>().transform.position.y);
             Vector2 pos2 = pos;
-
-            if (Vector2.Distance(pos2, pos1) > 0.3f)
+            if (Vector2.Distance(pos2, pos1) > 0.5f)
             {
                 return false;
             }
         }
-
         return true;
     }
 
@@ -68,7 +65,6 @@ public class PathReader : MonoBehaviour
 
         if (circles != null && circles.Length > 0 && iSStatingFromRightPosition(new Vector2(pos.x, pos.y)))
         {
-
             targetColliders.Clear();
             StartLine(circles[0].transform.position);
             for (int i = 0; i < circles.Length; i++)
@@ -111,16 +107,12 @@ public class PathReader : MonoBehaviour
 
     bool checkIfColliderCollider(Vector3 pos)
     {
-
         Collider2D[] circles = Physics2D.OverlapCircleAll(pos, 0.1f);
 
         if (circles != null && circles.Length > 0)
         {
             for (int i = 0; i < circles.Length; i++)
             {
-
-
-
                 if (targetColliders.Contains(circles[i].gameObject))
                 {
 
