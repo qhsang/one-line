@@ -4,7 +4,7 @@ using System.Collections;
 public class Music : MonoBehaviour
 {
     public AudioSource audioSource;
-    public enum Type { None, MainMusic1, MainMusic2, MainMusic3};
+    public enum Type { None, MainMusic1, MainMusic2, MainMusic3, MainMusic4};
     public static Music instance;
 
     [HideInInspector]

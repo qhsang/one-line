@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="" />
+    <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/CUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/CUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/GameMaster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/GameMaster.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Music.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Music.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Prefab/World1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Prefab/World1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIControllerForGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIControllerForGame.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +25,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bb75b04c773345d791147de656bca8d11da00/57/a9a3b7ac/UnifiedReceipt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de80aed0bd3646409e8bfb15c101f005e2000/a2/b325e7b9/List`1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -97,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1748534607767</updated>
       <workItem from="1748534610489" duration="3530000" />
-      <workItem from="1748663314341" duration="637000" />
+      <workItem from="1748663314341" duration="8909000" />
+      <workItem from="1748698030318" duration="1062000" />
     </task>
     <servers />
   </component>

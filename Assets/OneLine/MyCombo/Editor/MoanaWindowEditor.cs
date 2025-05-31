@@ -42,7 +42,7 @@ public class MoanaWindowEditor
         {
             levelcross = TotalLevelCrossed,
             currentLevel = currentLevel,
-            totalhints = 100
+            totalhints = 1000
         };
 
         bf.Serialize(f, userData);

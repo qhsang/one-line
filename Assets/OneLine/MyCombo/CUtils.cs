@@ -346,7 +346,7 @@ public class CUtils
 
     public static void ChangeGameMusic()
     {
-        if (Time.time - lastChangeTime > 60)
+        if (Time.time - lastChangeTime > 30)
         {
             Music.instance.Play(musicTypes[selectMusicIndex]);
             selectMusicIndex = (selectMusicIndex + 1) % musicTypes.Length;

@@ -73,11 +73,11 @@ public class UIControllerForGame : MonoBehaviour
             var freeHint = LevelData.hintGainForWorld[world - 1];
             PlayerData.instance.NumberOfHints += freeHint;
             PlayerData.instance.SaveData();
-            wonUi.transform.GetChild(0).Find("HintAdded").GetComponent<Text>().text = "Congrats! You got " + freeHint + " free hints";
+            wonUi.transform.GetChild(1).Find("HintAdded").GetComponent<Text>().text = "Congrats! You got " + freeHint + " free hints";
         }
         else
         {
-            wonUi.transform.GetChild(0).Find("HintAdded").GetComponent<Text>().text = "";
+            wonUi.transform.GetChild(1).Find("HintAdded").GetComponent<Text>().text = "";
         }
 
         Sound.instance.Play(Sound.Others.Win);
