@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Dark/CardFrame02,03_BackFrame_n_Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Dark/CardFrame02,03_BackFrame_n_Green.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Dark/CardFrame02,03_BackFrame_n_Purple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Dark/CardFrame02,03_BackFrame_n_Purple.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Dark/CardFrame02,03_BackFrame_n_Yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Dark/CardFrame02,03_BackFrame_n_Yellow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Prefab/World1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Prefab/World1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs" afterDir="false" />
-    </list>
+    <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748534607767</updated>
       <workItem from="1748534610489" duration="3530000" />
-      <workItem from="1748663314341" duration="317000" />
+      <workItem from="1748663314341" duration="637000" />
     </task>
     <servers />
   </component>
