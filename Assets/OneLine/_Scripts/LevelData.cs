@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelData  {
 	public static int totalLevelsPerWorld = 50;
-	public static int prvLevelToCrossToUnLock = 25;
+	public static int prvLevelToCrossToUnLock = 32;
 	public static int pressedWorld = 1;
 
 	public static int worldSelected = 1;
