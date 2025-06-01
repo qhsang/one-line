@@ -288,36 +288,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf1beac61f5961242b200217627754b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isEnabled: 0
+  isEnabled: 1
   iapItems:
   - productID: remove_ads
     productType: 1
     price: 1.99
     value: 0
-  - productID: unlock_package
+  - productID: unlock_level
     productType: 0
-    price: 1.99
+    price: 0.99
     value: 0
-  - productID: oneline.hint1
+  - productID: sline.hint1
     productType: 0
     price: 0.99
     value: 10
-  - productID: oneline.hint2
+  - productID: sline.hint2
     productType: 0
     price: 1.99
-    value: 22
-  - productID: oneline.hint3
+    value: 25
+  - productID: sline.hint3
     productType: 0
     price: 2.99
-    value: 35
+    value: 45
   - productID: oneline.hint4
     productType: 0
     price: 3.99
-    value: 55
+    value: 70
   - productID: oneline.hint5
     productType: 0
     price: 4.99
-    value: 80
+    value: 100
 --- !u!1 &140880
 GameObject:
   m_ObjectHideFlags: 0

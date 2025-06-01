@@ -16,7 +16,7 @@ PlayerSettings:
   productName: SLine
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.02745098, g: 0.043137256, b: 0.08627451, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 0
   m_SplashScreenOverlayOpacity: 1
@@ -40,9 +40,9 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: -8132422718618292777, guid: 12ec07f4bbdba4912a9ae9b3f85399ff, type: 3}
-    duration: 3
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 12ec07f4bbdba4912a9ae9b3f85399ff,
+  - logo: {fileID: -2719808887145928092, guid: 54314aee0c93c4cd085011855a6973bc, type: 3}
+    duration: 2.5
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 930057d2eff434fee90a5c597ac4b21a,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
