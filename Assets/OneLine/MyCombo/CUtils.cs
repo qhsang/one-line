@@ -341,8 +341,8 @@ public class CUtils
     }
 
     static float lastChangeTime = int.MinValue;
-    static int selectMusicIndex;
-    static Music.Type[] musicTypes = { Music.Type.MainMusic1, Music.Type.MainMusic2, Music.Type.MainMusic3 };
+    static int selectMusicIndex = 0;
+    static Music.Type[] musicTypes = { Music.Type.MainMusic1, Music.Type.MainMusic2, Music.Type.MainMusic3, Music.Type.MainMusic4 };
 
     public static void ChangeGameMusic()
     {
@@ -357,6 +357,7 @@ public class CUtils
 
     static CUtils()
     {
-        selectMusicIndex = UnityEngine.Random.Range(0, musicTypes.Length);
+        // selectMusicIndex = UnityEngine.Random.Range(0, musicTypes.Length);
+        selectMusicIndex = UnityEngine.Random.Range(0, 2);
     }
 }

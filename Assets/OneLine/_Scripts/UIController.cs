@@ -225,7 +225,7 @@ public class UIController : MonoBehaviour
             Transform locked = child.Find("Locked");
             Transform unlocked = child.Find("Unlocked");
 
-            if (i < largetLevel + 3)
+            if (i < largetLevel + 4)
             {
                 locked.gameObject.SetActive(false);
                 unlocked.gameObject.SetActive(true);

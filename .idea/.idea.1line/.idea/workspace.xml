@@ -7,13 +7,11 @@
     <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/CUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/CUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/GameMaster.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/GameMaster.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Music.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Music.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Prefab/World1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Prefab/World1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIControllerForGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIControllerForGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Brunch Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Brunch Cut 30.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Bubblegum Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Bubblegum Cut 30.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Dance Class Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Dance Class Cut 30.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Workshop Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Workshop Cut 30.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b256ee5d7f3242f984afb75c107dcc771df400/f0/c3abe51f/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bb75b04c773345d791147de656bca8d11da00/57/a9a3b7ac/UnifiedReceipt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de80aed0bd3646409e8bfb15c101f005e2000/a2/b325e7b9/List`1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -110,6 +109,8 @@
       <workItem from="1748534610489" duration="3530000" />
       <workItem from="1748663314341" duration="8909000" />
       <workItem from="1748698030318" duration="1062000" />
+      <workItem from="1748700042959" duration="2268000" />
+      <workItem from="1748749949892" duration="8344000" />
     </task>
     <servers />
   </component>

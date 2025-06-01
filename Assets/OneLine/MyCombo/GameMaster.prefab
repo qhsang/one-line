@@ -442,8 +442,8 @@ MonoBehaviour:
   musicClips:
   - {fileID: 0}
   - {fileID: 8300000, guid: 0970c7edb8f9b473fa82bc1caf51f262, type: 3}
-  - {fileID: 8300000, guid: 556b1e97498a84e0e944114fc41c99d5, type: 3}
   - {fileID: 8300000, guid: 57ea4256e6ac3445eacf60f201da2bef, type: 3}
+  - {fileID: 8300000, guid: 556b1e97498a84e0e944114fc41c99d5, type: 3}
   - {fileID: 8300000, guid: 93282845ff408415eac2a485323a2659, type: 3}
 --- !u!82 &8264866
 AudioSource:
