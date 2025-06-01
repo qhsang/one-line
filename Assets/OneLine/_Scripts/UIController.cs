@@ -69,7 +69,6 @@ public class UIController : MonoBehaviour
         CUtils.ChangeGameMusic();
 
         CUtils.CloseBannerAd();
-
         if (!Purchaser.instance.isEnabled)
         {
             shopImage.sprite = rateSprite;
