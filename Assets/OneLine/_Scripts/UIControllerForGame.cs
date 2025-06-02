@@ -8,6 +8,7 @@ public class UIControllerForGame : MonoBehaviour
     public Text hintText;
     public Text stageText;
     public Text packageName;
+    public Text textWinGame;
 
     public GameObject pauseScene;
     public GameObject wonUi;
@@ -73,11 +74,12 @@ public class UIControllerForGame : MonoBehaviour
             var freeHint = LevelData.hintGainForWorld[world - 1];
             PlayerData.instance.NumberOfHints += freeHint;
             PlayerData.instance.SaveData();
-            wonUi.transform.GetChild(1).Find("HintAdded").GetComponent<Text>().text = "Congrats! You got " + freeHint + " free hints";
+            textWinGame.gameObject.SetActive(true);
+            textWinGame.text = "Congrats! You got " + freeHint + " free hints";
         }
         else
         {
-            wonUi.transform.GetChild(1).Find("HintAdded").GetComponent<Text>().text = "";
+            textWinGame.gameObject.SetActive(false);
         }
 
         Sound.instance.Play(Sound.Others.Win);

@@ -3,8 +3,8 @@ guid: 54314aee0c93c4cd085011855a6973bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2719808887145928092
-    second: Casual logo_upscayl_4x_realesrgan-x4plus_0
+      213: -8022923656559094920
+    second: Casual logo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Casual logo_upscayl_4x_realesrgan-x4plus_0
+      name: Casual logo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 4180
-        height: 7348
+        width: 3284
+        height: 4844
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46a67b03a3c414ad0800000000000000
-      internalID: -2719808887145928092
+      spriteID: 87397be0179d8a090800000000000000
+      internalID: -8022923656559094920
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Casual logo_upscayl_4x_realesrgan-x4plus_0: -2719808887145928092
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
