@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class ShopDialog : MonoBehaviour
 {
     public Text[] numHintTexts, contentTexts, priceTexts;
-    public Text removeAdPriceText;
     public Text balanceText;
 
     private void Start()
@@ -18,8 +17,6 @@ public class ShopDialog : MonoBehaviour
             contentTexts[i].text = Purchaser.instance.iapItems[i+2].value + " hints";
             priceTexts[i].text = "$" + Purchaser.instance.iapItems[i+2].price;
         }
-
-        removeAdPriceText.text = "$" + Purchaser.instance.iapItems[0].price;
 #endif
     }
 
