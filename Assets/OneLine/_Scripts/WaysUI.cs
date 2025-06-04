@@ -10,6 +10,7 @@ public class WaysUI : MonoBehaviour
     private LineRenderer line;
     private GameObject dot1;
     private GameObject dot2;
+    [SerializeField] private Material materialNormal, materialConnected;
 
     private bool isConnected;
     private int connectTime;
@@ -46,7 +47,7 @@ public class WaysUI : MonoBehaviour
         }
 
         line.startColor = c;
-        line.endColor = c;
+        line.endColor = Color.black;
 
         line.positionCount = 2;
 
@@ -58,6 +59,7 @@ public class WaysUI : MonoBehaviour
 
         line.SetPosition(0, posStart);
         line.SetPosition(1, posEnd);
+        SetActiveShader(false);
     }
 
     public Vector3 pointOnLine()
@@ -94,6 +96,8 @@ public class WaysUI : MonoBehaviour
 
                 line.startColor = c;
                 line.endColor = c;
+                
+                SetActiveShader(true);
 
                 Sound.instance.Play(Sound.Others.Line);
             }
@@ -104,6 +108,7 @@ public class WaysUI : MonoBehaviour
 
                 line.startColor = c;
                 line.endColor = c;
+                SetActiveShader(false);
             }
 
             GameObject.FindObjectOfType<PathReader>().pushConnectedPath(gameObject);
@@ -179,6 +184,8 @@ public class WaysUI : MonoBehaviour
 
             line.startColor = c;
             line.endColor = c;
+            SetActiveShader(true);
+
         }
         else
         {
@@ -186,6 +193,8 @@ public class WaysUI : MonoBehaviour
 
             line.startColor = c;
             line.endColor = c;
+            SetActiveShader(false);
+
         }
 
         int count = transform.childCount;
@@ -229,5 +238,11 @@ public class WaysUI : MonoBehaviour
     public Vector3 childPos(int indexChild)
     {
         return transform.GetChild(indexChild).position;
+    }
+    
+    private void SetActiveShader(bool isActive)
+    {
+        line.material = isActive ? materialConnected : materialNormal;
+        line.sortingOrder = isActive ? 1 : 0;
     }
 }

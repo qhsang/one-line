@@ -5,6 +5,7 @@ using System.IO;
 
 public class PathReader : MonoBehaviour
 {
+    private static readonly int Color1 = Shader.PropertyToID("_Color");
     public GameObject wayUI;
     public GameObject redArrow;
 
@@ -32,6 +33,7 @@ public class PathReader : MonoBehaviour
 
         line.startColor = c;
         line.endColor = c;
+        line.material.SetColor(Color1, c);
 
         line.positionCount = 2;
 
