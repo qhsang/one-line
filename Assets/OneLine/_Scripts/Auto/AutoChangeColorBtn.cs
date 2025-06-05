@@ -78,6 +78,9 @@ public class AutoChangeColorBtn : MonoBehaviour
         }
         
         // Update alpha
-        canvasGroup.alpha = isTargetActive ? 0.5f : 1f;
+        if (canvasGroup != null)
+        {
+            canvasGroup.alpha = isTargetActive ? 0.5f : 1f;
+        }
     }
 }
