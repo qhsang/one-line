@@ -10,10 +10,11 @@ public class WaysUI : MonoBehaviour
     private LineRenderer line;
     private GameObject dot1;
     private GameObject dot2;
-    [SerializeField] private Material materialNormal, materialConnected;
+    [SerializeField] private Material materialNormal, materialConnected, multipleLineMaterial;
 
     private bool isConnected;
     private int connectTime;
+    private bool isMultipleLine;
 
     void Start()
     {
@@ -42,8 +43,10 @@ public class WaysUI : MonoBehaviour
 
         if (way.pathTag > 1)
         {
-            c = Color.red;
+            c = ThemeChanger.current.dotColor;
             c.a = 0.6f;
+            line.material = multipleLineMaterial;
+            isMultipleLine = true;
         }
 
         line.startColor = c;
@@ -184,7 +187,7 @@ public class WaysUI : MonoBehaviour
 
             line.startColor = c;
             line.endColor = c;
-            SetActiveShader(true);
+            SetActiveShader(false);
 
         }
         else
@@ -242,7 +245,6 @@ public class WaysUI : MonoBehaviour
     
     private void SetActiveShader(bool isActive)
     {
-        line.material = isActive ? materialConnected : materialNormal;
-        line.sortingOrder = isActive ? 1 : 0;
+        line.material = isActive ? materialConnected : isMultipleLine ? multipleLineMaterial : materialNormal;
     }
 }

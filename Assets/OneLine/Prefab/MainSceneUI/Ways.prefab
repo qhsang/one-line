@@ -404,3 +404,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   materialNormal: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   materialConnected: {fileID: 2100000, guid: 89bcff25cafbc4f1faa3fdd9b5e79bd7, type: 2}
+  multipleLineMaterial: {fileID: 2100000, guid: d7d3c68bf2d4d430cbbd4419d689ccf3,
+    type: 2}
