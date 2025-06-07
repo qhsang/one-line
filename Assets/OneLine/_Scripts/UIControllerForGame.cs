@@ -107,6 +107,22 @@ public class UIControllerForGame : MonoBehaviour
         LevelData.levelSelected++;
         SceneManager.LoadScene(1);
     }
+    
+    public void LoadPrevLevel()
+    {
+        Sound.instance.PlayButton();
+        int stage = LevelData.levelSelected;
+
+        if (stage == LevelData.totalLevelsPerWorld)
+        {
+            UIController.mode = UIController.UIMODE.OPENWORLDSCREEN;
+            SceneManager.LoadScene(0);
+            return;
+        }
+
+        LevelData.levelSelected--;
+        SceneManager.LoadScene(1);
+    }
 
     public void ShowAnimationOnAllNodes()
     {

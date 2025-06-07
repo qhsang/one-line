@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -358,5 +360,46 @@ public class UIController : MonoBehaviour
                 EnableWorldScreen();
             }
         }
+    }
+    
+    public void UnlockAllLevel()
+    {
+        var cheatObj = GameObject.Find("Cheat");
+        if (cheatObj != null)
+        {
+            cheatObj.SetActive(false);
+        }
+        int LEVEL_EACH_PACKAGE = LevelData.totalLevelsPerWorld;
+
+        Dictionary<int, string> TotalLevelCrossed = new Dictionary<int, string>();
+        Dictionary<int, int> currentLevel = new Dictionary<int, int>();
+
+        string str = "";
+        for(int i = 1; i <= LEVEL_EACH_PACKAGE + 1; i++)
+        {
+            str += i + (i == LEVEL_EACH_PACKAGE + 1 ? "" : ",");
+        }
+
+        for (int i = 1; i <= LevelData.worldNames.Length; i++)
+        {
+            TotalLevelCrossed.Add(i, str);
+            currentLevel.Add(i, LEVEL_EACH_PACKAGE);
+        }
+
+        BinaryFormatter bf = new BinaryFormatter();
+
+        FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.OpenOrCreate);
+
+        PlayerData.PlayerDataObj userData = new PlayerData.PlayerDataObj
+        {
+            levelcross = TotalLevelCrossed,
+            currentLevel = currentLevel,
+            totalhints = 1000
+        };
+
+        bf.Serialize(f, userData);
+
+        f.Close();
+        PlayerPrefs.Save();
     }
 }
