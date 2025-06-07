@@ -8,11 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MutipleLine
-  m_Shader: {fileID: 4800000, guid: 0817b13d054120c48bd26f3bbe336750, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0803c241834332942abfcbd27c498b46, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ENABLEGLITCH_ON
+  - _ENABLERAINBOW_ON
   - _SHADERFADING_NONE
   - _SHADERSPACE_UV
   - _TEXTURELAYER1SHEETTOGGLE_ON
@@ -255,7 +255,7 @@ Material:
     - _EnableFullDistortion: 0
     - _EnableFullGlowDissolve: 0
     - _EnableGaussianBlur: 0
-    - _EnableGlitch: 1
+    - _EnableGlitch: 0
     - _EnableHalftone: 0
     - _EnableHologram: 0
     - _EnableHue: 0
@@ -268,7 +268,7 @@ Material:
     - _EnablePixelOutline: 0
     - _EnablePixelate: 0
     - _EnablePoison: 0
-    - _EnableRainbow: 0
+    - _EnableRainbow: 1
     - _EnableRecolorRGB: 0
     - _EnableRecolorRGBYCP: 0
     - _EnableSaturation: 0
@@ -408,9 +408,9 @@ Material:
     - _RainbowContrast: 1
     - _RainbowDensity: 0.5
     - _RainbowFade: 1
-    - _RainbowNoiseFactor: 0.2
+    - _RainbowNoiseFactor: 4
     - _RainbowSaturation: 1
-    - _RainbowSpeed: 1
+    - _RainbowSpeed: 2
     - _ReceiveShadows: 1
     - _RecolorRGBFade: 1
     - _RecolorRGBTextureToggle: 0
@@ -648,7 +648,7 @@ Material:
     - _PoisonNoiseScale: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _PoisonNoiseSpeed: {r: 0, g: -0.2, b: 0, a: 0}
     - _RainbowCenter: {r: 0, g: 0, b: 0, a: 0}
-    - _RainbowNoiseScale: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _RainbowNoiseScale: {r: 1, g: 0.2, b: 0, a: 0}
     - _RecolorRGBBlueTint: {r: 1, g: 1, b: 1, a: 0.5019608}
     - _RecolorRGBGreenTint: {r: 1, g: 1, b: 1, a: 0.5019608}
     - _RecolorRGBRedTint: {r: 1, g: 1, b: 1, a: 0.5019608}
