@@ -15,11 +15,13 @@ public class UIControllerForGame : MonoBehaviour
 
     public GameObject dotAnim;
 
+    public Button nextButton, previousButton;
     void Start()
     {
         UpdateHint();
         InvokeRepeating("ShowBannerAd", 0, 10);
         CUtils.ChangeGameMusic();
+        UpdateNextPrevButton();
     }
 
     private void ShowBannerAd()
@@ -41,6 +43,30 @@ public class UIControllerForGame : MonoBehaviour
 
         stageText.text = "LV " + level;
         packageName.text = LevelData.worldNames[world - 1];
+    }
+    
+    private void UpdateNextPrevButton()
+    {
+        Debug.Log($"World: {LevelData.worldSelected},unlock: {PlayerData.instance.IsLevelCrossed(LevelData.worldSelected, LevelData.levelSelected + 1)}");
+        int level = LevelData.levelSelected;
+        var nextLevel = LevelData.levelSelected + 1;
+        if (level == LevelData.totalLevelsPerWorld || PlayerData.instance.IsLevelCrossed(LevelData.worldSelected, LevelData.levelSelected + 1))
+        {
+            nextButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            nextButton.gameObject.SetActive(true);
+        }
+
+        if (level <= 1)
+        {
+            previousButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            previousButton.gameObject.SetActive(true);
+        }
     }
 
     public void ShowPauseScene()
@@ -107,16 +133,35 @@ public class UIControllerForGame : MonoBehaviour
         LevelData.levelSelected++;
         SceneManager.LoadScene(1);
     }
+    public void LoadNextIfAllow()
+    {
+        Sound.instance.PlayButton();
+
+        var nextLevel = LevelData.levelSelected + 1;
+        if (nextLevel < PlayerData.instance.LEVELUNLOCKED[LevelData.worldSelected])
+        {
+            return;
+        }
+        
+        if (nextLevel >= LevelData.totalLevelsPerWorld)
+        {
+            UIController.mode = UIController.UIMODE.OPENWORLDSCREEN;
+            SceneManager.LoadScene(0);
+            return;
+        }
+
+        LevelData.levelSelected++;
+        SceneManager.LoadScene(1);
+    }
     
-    public void LoadPrevLevel()
+    public void LoadPrevIfAllow()
     {
         Sound.instance.PlayButton();
         int stage = LevelData.levelSelected;
 
-        if (stage == LevelData.totalLevelsPerWorld)
+        var prevLevel = LevelData.levelSelected - 1;
+        if (prevLevel < 1)
         {
-            UIController.mode = UIController.UIMODE.OPENWORLDSCREEN;
-            SceneManager.LoadScene(0);
             return;
         }
 
