@@ -39,7 +39,7 @@ public class UIControllerForGame : MonoBehaviour
         int level = LevelData.levelSelected;
         int world = LevelData.worldSelected;
 
-        stageText.text = "STAGE " + level;
+        stageText.text = "LV " + level;
         packageName.text = LevelData.worldNames[world - 1];
     }
 

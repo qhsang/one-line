@@ -1003,6 +1003,7 @@ GameObject:
   - component: {fileID: 153841714}
   - component: {fileID: 153841717}
   - component: {fileID: 153841716}
+  - component: {fileID: 153841718}
   - component: {fileID: 153841715}
   m_Layer: 5
   m_Name: Close
@@ -1136,6 +1137,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153841713}
   m_CullTransparentMesh: 0
+--- !u!114 &153841718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153841713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &166664666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1952,6 +1989,7 @@ GameObject:
   - component: {fileID: 341205091}
   - component: {fileID: 341205090}
   - component: {fileID: 341205089}
+  - component: {fileID: 341205092}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -2085,6 +2123,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341205087}
   m_CullTransparentMesh: 0
+--- !u!114 &341205092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341205087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &348120679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3106,12 +3180,12 @@ PrefabInstance:
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 51.08772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -240.0875
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -3156,7 +3230,7 @@ PrefabInstance:
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 550
+      value: 520
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -3222,6 +3296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -540
+      objectReference: {fileID: 0}
+    - target: {fileID: 224943021817651984, guid: 191cb8acf5c4a984c870698d81480067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 129
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6678,12 +6757,12 @@ PrefabInstance:
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 51.08772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -240.0875
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -6728,7 +6807,7 @@ PrefabInstance:
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 550
+      value: 520
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -6794,6 +6873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -990
+      objectReference: {fileID: 0}
+    - target: {fileID: 224943021817651984, guid: 191cb8acf5c4a984c870698d81480067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 128.99997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7467,6 +7551,7 @@ GameObject:
   - component: {fileID: 1271337732}
   - component: {fileID: 1271337735}
   - component: {fileID: 1271337734}
+  - component: {fileID: 1271337736}
   - component: {fileID: 1271337733}
   m_Layer: 5
   m_Name: shop
@@ -7601,6 +7686,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271337731}
   m_CullTransparentMesh: 0
+--- !u!114 &1271337736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271337731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1289775180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8392,12 +8513,12 @@ PrefabInstance:
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 51.08772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -240.0875
+      value: -221
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -8442,7 +8563,7 @@ PrefabInstance:
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 550
+      value: 520
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -8508,6 +8629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -390
+      objectReference: {fileID: 0}
+    - target: {fileID: 224943021817651984, guid: 191cb8acf5c4a984c870698d81480067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 131
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8672,6 +8798,7 @@ GameObject:
   - component: {fileID: 1445296036}
   - component: {fileID: 1445296035}
   - component: {fileID: 1445296034}
+  - component: {fileID: 1445296037}
   m_Layer: 5
   m_Name: Close
   m_TagString: Untagged
@@ -8804,6 +8931,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445296032}
   m_CullTransparentMesh: 0
+--- !u!114 &1445296037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445296032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1455282682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9034,6 +9197,7 @@ GameObject:
   - component: {fileID: 1514968194}
   - component: {fileID: 1514968197}
   - component: {fileID: 1514968196}
+  - component: {fileID: 1514968198}
   - component: {fileID: 1514968195}
   m_Layer: 5
   m_Name: Cancel
@@ -9168,6 +9332,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514968193}
   m_CullTransparentMesh: 0
+--- !u!114 &1514968198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514968193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.1, y: 1.1, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1518378216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9665,12 +9865,12 @@ PrefabInstance:
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 51.08772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -240.0875
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -9715,7 +9915,7 @@ PrefabInstance:
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 550
+      value: 520
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -9782,6 +9982,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -690
       objectReference: {fileID: 0}
+    - target: {fileID: 224943021817651984, guid: 191cb8acf5c4a984c870698d81480067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 128.99997
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9804,6 +10009,7 @@ GameObject:
   - component: {fileID: 1547364864}
   - component: {fileID: 1547364867}
   - component: {fileID: 1547364866}
+  - component: {fileID: 1547364868}
   - component: {fileID: 1547364865}
   m_Layer: 5
   m_Name: sound
@@ -9938,6 +10144,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547364863}
   m_CullTransparentMesh: 0
+--- !u!114 &1547364868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547364863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1559418723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10687,12 +10929,12 @@ PrefabInstance:
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 51.08772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -240.0875
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -10737,7 +10979,7 @@ PrefabInstance:
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 550
+      value: 520
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -10803,6 +11045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -840
+      objectReference: {fileID: 0}
+    - target: {fileID: 224943021817651984, guid: 191cb8acf5c4a984c870698d81480067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 128.99997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12713,6 +12960,7 @@ GameObject:
   - component: {fileID: 1877021404}
   - component: {fileID: 1877021407}
   - component: {fileID: 1877021406}
+  - component: {fileID: 1877021408}
   - component: {fileID: 1877021405}
   m_Layer: 5
   m_Name: Exit
@@ -12835,6 +13083,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877021403}
   m_CullTransparentMesh: 1
+--- !u!114 &1877021408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877021403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1878091331
 GameObject:
   m_ObjectHideFlags: 0
@@ -12921,7 +13205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927238402}
   - component: {fileID: 1927238404}
-  - component: {fileID: 1927238403}
+  - component: {fileID: 1927238405}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -12998,20 +13282,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.0002401473}
   m_SizeDelta: {x: 0, y: 2895}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1927238403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927238401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
 --- !u!114 &1927238404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13036,6 +13306,20 @@ MonoBehaviour:
   m_Spacing: {x: 75, y: 60}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!114 &1927238405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927238401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 0
 --- !u!1001 &1929275525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13102,12 +13386,12 @@ PrefabInstance:
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 167.85965
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224769306165426190, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 51.08772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -13142,7 +13426,7 @@ PrefabInstance:
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 550
+      value: 520
       objectReference: {fileID: 0}
     - target: {fileID: 224804841318888464, guid: 191cb8acf5c4a984c870698d81480067,
         type: 3}
@@ -13209,6 +13493,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224943021817651984, guid: 191cb8acf5c4a984c870698d81480067,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 134
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13225,6 +13514,7 @@ GameObject:
   - component: {fileID: 1943276135}
   - component: {fileID: 1943276138}
   - component: {fileID: 1943276137}
+  - component: {fileID: 1943276139}
   - component: {fileID: 1943276136}
   m_Layer: 5
   m_Name: music
@@ -13359,6 +13649,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943276134}
   m_CullTransparentMesh: 0
+--- !u!114 &1943276139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943276134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.25, y: 1.25, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1948748600
 GameObject:
   m_ObjectHideFlags: 0
@@ -13664,6 +13990,7 @@ GameObject:
   - component: {fileID: 1967517382}
   - component: {fileID: 1967517385}
   - component: {fileID: 1967517384}
+  - component: {fileID: 1967517386}
   - component: {fileID: 1967517383}
   m_Layer: 5
   m_Name: PlayButton
@@ -13801,6 +14128,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967517381}
   m_CullTransparentMesh: 0
+--- !u!114 &1967517386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967517381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.1, y: 1.1, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1001 &1976283107
 PrefabInstance:
   m_ObjectHideFlags: 0

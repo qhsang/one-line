@@ -206,8 +206,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240.08754, y: -0.000030517578}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -228, y: -0.000030517578}
+  m_SizeDelta: {x: 167.85965, y: 51.08772}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &222321351267217222
 CanvasRenderer:
@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 222896550586092538}
   - component: {fileID: 114559563311931456}
   - component: {fileID: 114845359980387954}
+  - component: {fileID: 1035522650800825446}
   - component: {fileID: 1050056475843849010}
   - component: {fileID: 3417562541506037957}
   m_Layer: 5
@@ -428,6 +429,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1035522650800825446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906840298275732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f185c0d9f333d473ba003d5b256780d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easeOut: 7
+  easeIn: 1
+  duration: 0.5
+  scale: {x: 1.15, y: 1.15, z: 1}
+  canHole: 0
+  timeHolding: 0
+  startHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  cancelHoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  changeTexture: 0
+  useInteractable: 0
+  useChildImage: 0
+  imageChange: {fileID: 0}
+  imageA: []
+  imageB: []
+  imageDisable: []
+  changeColor: 0
+  colorChange: {r: 0, g: 0, b: 0, a: 0}
 --- !u!225 &1050056475843849010
 CanvasGroup:
   m_ObjectHideFlags: 0
