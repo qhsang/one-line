@@ -21,7 +21,7 @@ public class UIControllerForGame : MonoBehaviour
         UpdateHint();
         InvokeRepeating("ShowBannerAd", 0, 10);
         CUtils.ChangeGameMusic();
-        UpdateNextPrevButton();
+        // UpdateNextPrevButton();
     }
 
     private void ShowBannerAd()

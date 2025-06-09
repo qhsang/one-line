@@ -268,7 +268,7 @@ MonoBehaviour:
     iosInterstitial: 
     androidBanner: 
     iosBanner: 
-    androidRewarded: 
+    androidRewarded: Rewarded_Android
     iosRewarded: 
   adPeriod: 60
   rewardedVideoPeriod: 30

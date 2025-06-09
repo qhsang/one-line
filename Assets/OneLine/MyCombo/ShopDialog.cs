@@ -13,9 +13,9 @@ public class ShopDialog : MonoBehaviour
 
         for(int i = 0; i < numHintTexts.Length; i++)
         {
-            numHintTexts[i].text = Purchaser.instance.iapItems[i+2].value.ToString();
-            contentTexts[i].text = Purchaser.instance.iapItems[i+2].value + " hints";
-            priceTexts[i].text = "$" + Purchaser.instance.iapItems[i+2].price;
+            numHintTexts[i].text = Purchaser.instance.iapItems[i+1].value.ToString();
+            contentTexts[i].text = Purchaser.instance.iapItems[i+1].value + " hints";
+            priceTexts[i].text = "$" + Purchaser.instance.iapItems[i+1].price;
         }
 #endif
     }
@@ -63,7 +63,7 @@ public class ShopDialog : MonoBehaviour
         // A consumable product has been purchased by this user.
         if (item.productType == PType.Consumable)
         {
-            if (index != 1)
+            if (index != 0)
             {
                 PlayerData.instance.NumberOfHints += item.value;
                 PlayerData.instance.SaveData();

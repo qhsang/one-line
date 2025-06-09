@@ -4245,7 +4245,7 @@ GameObject:
   - component: {fileID: 114921354764837620}
   - component: {fileID: 3878208418607259017}
   - component: {fileID: 114196191443684910}
-  - component: {fileID: 114811873029207490}
+  - component: {fileID: 5649273938301932116}
   m_Layer: 5
   m_Name: Pack 2
   m_TagString: Untagged
@@ -4396,9 +4396,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114811873029207490}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: OnClick
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: RewardedAdsButton, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4408,7 +4408,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &114811873029207490
+--- !u!114 &5649273938301932116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4417,9 +4417,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1917117152563738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a722676babfa0f74f9a1d8b6093ba937, type: 3}
+  m_Script: {fileID: 11500000, guid: b97b763855853456eb42880fe2f3545d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _showAdButton: {fileID: 114196191443684910}
+  _androidAdUnitId: Rewarded_Android
+  _iOSAdUnitId: Rewarded_iOS
+  balanceText: {fileID: 114908544417272968}
 --- !u!1 &1941922605578240
 GameObject:
   m_ObjectHideFlags: 0
