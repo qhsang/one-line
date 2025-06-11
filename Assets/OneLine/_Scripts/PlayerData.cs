@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System.Text;
+using System.Linq;
+using Newtonsoft.Json;
 
 public class PlayerData : MonoBehaviour
 {
@@ -115,51 +117,60 @@ public class PlayerData : MonoBehaviour
 
     public void LoadData()
     {
-        if (File.Exists(Application.persistentDataPath + "/data.dat"))
+        try
         {
-            BinaryFormatter bf = new BinaryFormatter();
-
-            FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.Open);
-            PlayerDataObj userData = (PlayerDataObj)bf.Deserialize(f);
-
-            TotalLevelCrossed = userData.levelcross;
-            LEVELUNLOCKED = userData.currentLevel;
-            NumberOfHints = userData.totalhints;
-
-            f.Close();
+            string path = Application.persistentDataPath + "/data.json";
+            if (File.Exists(path))
+            {
+                string encrypted = File.ReadAllText(path);
+                string json = Encryption.Decrypt(encrypted);
+                PlayerDataObj userData = JsonConvert.DeserializeObject<PlayerDataObj>(json);
+                TotalLevelCrossed = userData.levelcross;
+                LEVELUNLOCKED = userData.currentLevel;
+                NumberOfHints = userData.totalhints;
+            }
+            else
+            {
+                LoadDefaultData();
+            }
         }
-        else
+        catch (Exception e)
         {
-            TotalLevelCrossed = new Dictionary<int, string>
-            {
-                { 1, "0" },
-                { 2, "0" },
-                { 3, "0" },
-                { 4, "0" },
-                { 5, "0" },
-                { 6, "0" },
-                { 7, "0" },
-                { 8, "0" },
-                { 9, "0" },
-                { 10, "0" }
-            };
-
-            CurrentLevel = 1;
-            NumberOfHints = 10;
-            LEVELUNLOCKED = new Dictionary<int, int>
-            {
-                { 1, 0 },
-                { 2, 0 },
-                { 3, 0 },
-                { 4, 0 },
-                { 5, 0 },
-                { 6, 0 },
-                { 7, 0 },
-                { 8, 0 },
-                { 9, 0 },
-                { 10, 0 }
-            };
+            LoadDefaultData();
         }
+        
+    }
+    
+    private void LoadDefaultData()
+    {
+        TotalLevelCrossed = new Dictionary<int, string>
+        {
+            { 1, "0" },
+            { 2, "0" },
+            { 3, "0" },
+            { 4, "0" },
+            { 5, "0" },
+            { 6, "0" },
+            { 7, "0" },
+            { 8, "0" },
+            { 9, "0" },
+            { 10, "0" }
+        };
+        CurrentLevel = 1;
+        NumberOfHints = 10;
+        LEVELUNLOCKED = new Dictionary<int, int>
+        {
+            { 1, 0 },
+            { 2, 0 },
+            { 3, 0 },
+            { 4, 0 },
+            { 5, 0 },
+            { 6, 0 },
+            { 7, 0 },
+            { 8, 0 },
+            { 9, 0 },
+            { 10, 0 }
+        };
     }
 
 
@@ -171,19 +182,16 @@ public class PlayerData : MonoBehaviour
 
     public void SaveData()
     {
-        BinaryFormatter bf = new BinaryFormatter();
-
-        FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.OpenOrCreate);
-
+        string path = Application.persistentDataPath + "/data.json";
         PlayerDataObj userData = new PlayerDataObj
         {
             levelcross = TotalLevelCrossed,
             currentLevel = LEVELUNLOCKED,
             totalhints = NumberOfHints
         };
-
-        bf.Serialize(f, userData);
-        f.Close();
+        string json = JsonConvert.SerializeObject(userData);
+        string encrypted = Encryption.Encrypt(json);
+        File.WriteAllText(path, encrypted);
     }
 
     [Serializable]

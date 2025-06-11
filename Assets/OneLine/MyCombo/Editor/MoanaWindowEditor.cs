@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 public class MoanaWindowEditor
 {
@@ -11,7 +11,7 @@ public class MoanaWindowEditor
     {
         PlayerPrefs.DeleteAll();
         PlayerPrefs.Save();
-        File.Delete(Application.persistentDataPath + "/data.dat");
+        File.Delete(Application.persistentDataPath + "/data.json");
     }
 
     [MenuItem("Moana Games/Unlock all levels")]
@@ -34,20 +34,17 @@ public class MoanaWindowEditor
             currentLevel.Add(i, LEVEL_EACH_PACKAGE);
         }
 
-        BinaryFormatter bf = new BinaryFormatter();
-
-        FileStream f = File.Open(Application.persistentDataPath + "/data.dat", FileMode.OpenOrCreate);
-
-        PlayerData.PlayerDataObj userData = new PlayerData.PlayerDataObj
+        var userData = new PlayerData.PlayerDataObj
         {
             levelcross = TotalLevelCrossed,
             currentLevel = currentLevel,
-            totalhints = 1000
+            totalhints = 50
         };
 
-        bf.Serialize(f, userData);
-
-        f.Close();
+        string json = JsonConvert.SerializeObject(userData);
+        string encrypted = Encryption.Encrypt(json);
+        string path = Application.persistentDataPath + "/data.json";
+        File.WriteAllText(path, encrypted);
         PlayerPrefs.Save();
     }
 }
