@@ -110,8 +110,8 @@ public class QHS_Button : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     }
     void Start()
     {
-
         _transform = _button.transform;
+        _transform.localScale = Vector3.one;
         _initialScale = _transform.localScale;
         _targetScale = MultipleVector(_initialScale, scale);
 
@@ -351,6 +351,8 @@ public class QHS_Button : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
             _holdingCts.Dispose();
             _holdingCts = null;
         }
+        if(_transform == null)
+            return;
         _transform.localScale = _initialScale;
     }
 

@@ -5,6 +5,51 @@ TextureImporter:
   - first:
       213: -5073019181996215544
     second: Sline_0
+  - first:
+      213: 1039359708040629657
+    second: Sline_1
+  - first:
+      213: 3689542792578049944
+    second: Sline_2
+  - first:
+      213: -2467172855813217510
+    second: Sline_3
+  - first:
+      213: 166839735994002993
+    second: Sline_4
+  - first:
+      213: -5717032048056872228
+    second: Sline_5
+  - first:
+      213: -8631918341925204997
+    second: Sline_6
+  - first:
+      213: 6352439329057863979
+    second: Sline_7
+  - first:
+      213: 3697903536990136184
+    second: Sline_8
+  - first:
+      213: -1548779566134794082
+    second: Sline_9
+  - first:
+      213: 8571340136600749027
+    second: Sline_10
+  - first:
+      213: -3310502127768730686
+    second: Sline_11
+  - first:
+      213: 2082906608234714542
+    second: Sline_12
+  - first:
+      213: 7372084134645740928
+    second: Sline_13
+  - first:
+      213: 8057605993905582297
+    second: Sline_14
+  - first:
+      213: -8730010877143467366
+    second: Sline_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +91,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -109,19 +154,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -129,10 +161,10 @@ TextureImporter:
       name: Sline_0
       rect:
         serializedVersion: 2
-        x: 125
-        y: 1053
-        width: 1258
-        height: 518
+        x: 657
+        y: 661
+        width: 194
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,11 +179,341 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Sline_1
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 661
+        width: 168
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d8d9fc52c8c6e00800000000000000
+      internalID: 1039359708040629657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_2
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 664
+        width: 147
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897a73f2f93e33330800000000000000
+      internalID: 3689542792578049944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_3
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 821
+        width: 199
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1364c9fb57d2cdd0800000000000000
+      internalID: -2467172855813217510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_4
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 664
+        width: 138
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea75e1bdbb05200800000000000000
+      internalID: 166839735994002993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_5
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 665
+        width: 43
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2db0674a509a0b0800000000000000
+      internalID: -5717032048056872228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_6
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 661
+        width: 166
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb8e5b7004453880800000000000000
+      internalID: -8631918341925204997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_7
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 665
+        width: 146
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29f6b1c9e5682850800000000000000
+      internalID: 6352439329057863979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_8
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 741
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87725ffaca7915330800000000000000
+      internalID: 3697903536990136184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_9
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 633
+        width: 87
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98e62db031a18ae0800000000000000
+      internalID: -1548779566134794082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_10
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 522
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3c22bf07483f670800000000000000
+      internalID: 8571340136600749027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_11
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 523
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c38b26cadbbe02d0800000000000000
+      internalID: -3310502127768730686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_12
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 521
+        width: 79
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5d4244688f7ec10800000000000000
+      internalID: 2082906608234714542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_13
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 521
+        width: 78
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0853ad32677ee4660800000000000000
+      internalID: 7372084134645740928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_14
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 521
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0fcced5fd52df60800000000000000
+      internalID: 8057605993905582297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sline_15
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 521
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a319e5c55c8d680800000000000000
+      internalID: -8730010877143467366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sline_0: -5073019181996215544
+      Sline_1: 1039359708040629657
+      Sline_10: 8571340136600749027
+      Sline_11: -3310502127768730686
+      Sline_12: 2082906608234714542
+      Sline_13: 7372084134645740928
+      Sline_14: 8057605993905582297
+      Sline_15: -8730010877143467366
+      Sline_2: 3689542792578049944
+      Sline_3: -2467172855813217510
+      Sline_4: 166839735994002993
+      Sline_5: -5717032048056872228
+      Sline_6: -8631918341925204997
+      Sline_7: 6352439329057863979
+      Sline_8: 3697903536990136184
+      Sline_9: -1548779566134794082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
