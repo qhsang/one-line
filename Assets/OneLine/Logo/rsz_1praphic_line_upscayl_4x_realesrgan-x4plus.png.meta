@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rsz_1praphic_line_upscayl_4x_realesrgan-x4plus_0: -8375880562119991065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

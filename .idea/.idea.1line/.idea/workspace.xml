@@ -5,26 +5,125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/MyCombo/CUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/CUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Brunch Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Brunch Cut 30.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Bubblegum Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Bubblegum Cut 30.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Dance Class Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Dance Class Cut 30.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Workshop Cut 30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Sounds/Casual Workshop Cut 30.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/GoogleRegistries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/GoogleRegistries.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.156_manifest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.156_manifest.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.aar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Player_Skip_Fw.Png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Player_Skip_Fw.Png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/Casual logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/Casual logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/icon sline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/icon sline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_1praphic_line_upscayl_4x_realesrgan-x4plus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_1praphic_line_upscayl_4x_realesrgan-x4plus.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_icon_sline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_icon_sline.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/RewardedAdsButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/RewardedAdsButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common/SgLib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common/SgLib/FileIO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common/SgLib/FileIO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_About.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_About.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_Constants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_Constants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_MenuManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_MenuManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_PluginManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_PluginManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_ProjectSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_ProjectSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileDependencies.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileSettings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileSettings.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Packages.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Packages/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Packages/LICENSE.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.md5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.sha1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.md5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.sha1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.md5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.sha1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/OneLine/MyCombo/Editor/MoanaWindowEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OneLine/MyCombo/ShopDialog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/RewardedAdsButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OneLine/_Scripts/Encryption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.levelplay@72e03413c95f/Runtime/Api/LevelPlayReward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b256ee5d7f3242f984afb75c107dcc771df400/f0/c3abe51f/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bb75b04c773345d791147de656bca8d11da00/57/a9a3b7ac/UnifiedReceipt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de80aed0bd3646409e8bfb15c101f005e2000/a2/b325e7b9/List`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/de80aed0bd3646409e8bfb15c101f005e2000/ad/ea69c7c8/BinaryFormatter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -36,6 +135,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -44,6 +144,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -110,7 +211,20 @@
       <workItem from="1748663314341" duration="8909000" />
       <workItem from="1748698030318" duration="1062000" />
       <workItem from="1748700042959" duration="2268000" />
-      <workItem from="1748749949892" duration="8344000" />
+      <workItem from="1748749949892" duration="10311000" />
+      <workItem from="1748875452131" duration="2373000" />
+      <workItem from="1748970921577" duration="1670000" />
+      <workItem from="1749046834672" duration="6993000" />
+      <workItem from="1749140090218" duration="2050000" />
+      <workItem from="1749279651126" duration="923000" />
+      <workItem from="1749282460868" duration="10756000" />
+      <workItem from="1749347691232" duration="6211000" />
+      <workItem from="1749482628083" duration="4391000" />
+      <workItem from="1749560874029" duration="2672000" />
+      <workItem from="1749650972346" duration="173000" />
+      <workItem from="1749651450054" duration="4857000" />
+      <workItem from="1749901076394" duration="5782000" />
+      <workItem from="1750866271420" duration="5227000" />
     </task>
     <servers />
   </component>
@@ -142,6 +256,188 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs" containingFunctionPresentation="Method 'showHints'">
+            <startOffsets>
+              <option value="810" />
+            </startOffsets>
+            <endOffsets>
+              <option value="868" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs" containingFunctionPresentation="Method 'showHints'">
+            <startOffsets>
+              <option value="1156" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1176" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs</url>
+          <line>77</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs" containingFunctionPresentation="Method 'showHints'">
+            <startOffsets>
+              <option value="2244" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2317" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs" containingFunctionPresentation="Method 'showHints'">
+            <startOffsets>
+              <option value="2576" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2595" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs</url>
+          <line>79</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs" containingFunctionPresentation="Method 'showHints'">
+            <startOffsets>
+              <option value="2348" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2385" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs</url>
+          <line>48</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/TextManger.cs" containingFunctionPresentation="Method 'showHints'">
+            <startOffsets>
+              <option value="1207" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1234" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs</url>
+          <line>115</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs" containingFunctionPresentation="Method 'BuyProduct'">
+            <startOffsets>
+              <option value="4175" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4215" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs</url>
+          <line>174</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs" containingFunctionPresentation="Method 'BuyProductID'">
+            <startOffsets>
+              <option value="6529" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6578" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs</url>
+          <line>166</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs" containingFunctionPresentation="Method 'BuyProductID'">
+            <startOffsets>
+              <option value="6183" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6293" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs</url>
+          <line>271</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/Purchaser.cs" containingFunctionPresentation="Method 'OnPurchaseFailed'">
+            <startOffsets>
+              <option value="10823" />
+            </startOffsets>
+            <endOffsets>
+              <option value="10969" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/MyCombo/ShopDialog.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/MyCombo/ShopDialog.cs" containingFunctionPresentation="Method 'OnItemPurchased'">
+            <startOffsets>
+              <option value="1650" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1691" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs</url>
+          <line>126</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs" containingFunctionPresentation="Method 'LoadData'">
+            <startOffsets>
+              <option value="2712" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2788" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs</url>
+          <line>125</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs" containingFunctionPresentation="Method 'LoadData'">
+            <startOffsets>
+              <option value="2651" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2695" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs</url>
+          <line>138</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/PlayerData.cs" containingFunctionPresentation="Method 'LoadData'">
+            <startOffsets>
+              <option value="3108" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3126" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
