@@ -136,7 +136,7 @@ public static class AdsManager
 
     #region Events
     // Reward Events
-    public static event Action<LevelPlayReward> OnRewardGranted;
+    public static event Action OnRewardGranted;
     public static event Action OnRewardedAdClosed;
     
     // Interstitial Events
@@ -434,20 +434,6 @@ public static class AdsManager
         
         rewardedAd = new LevelPlayRewardedAd(adsConfig.RewardedAdUnitId);
         
-        // Register reward and close event handlers
-        rewardedAd.OnAdRewarded += (adInfo, reward) => {
-            Debug.Log($"[AdsManager] Rewarded Ad Completed - Reward: {reward}");
-            OnRewardGranted?.Invoke(reward);
-            _rewardTcs?.TrySetResult(true);
-        };
-        
-        rewardedAd.OnAdClosed += (adInfo) => {
-            Debug.Log("[AdsManager] Rewarded Ad Closed");
-            OnRewardedAdClosed?.Invoke();
-            _rewardTcs?.TrySetResult(false);
-            rewardedAd.LoadAd();
-        };
-        
         rewardedAd.LoadAd();
     }
 
@@ -486,13 +472,36 @@ public static class AdsManager
 
         // Create new TaskCompletionSource for this ad viewing
         _rewardTcs = new TaskCompletionSource<bool>();
+        
+        // Create local variables for event handlers so we can unsubscribe later
+        Action<LevelPlayAdInfo,LevelPlayReward> rewardHandler = null;
+        Action<LevelPlayAdInfo> closeHandler = null;
+        
+        // Register reward event handler
+        rewardHandler = (adInfo, reward) => {
+            Debug.Log($"[AdsManager] Rewarded Ad Completed - Reward: {reward}");
+            OnRewardGranted?.Invoke();
+            // Unsubscribe to prevent multiple subscriptions
+            rewardedAd.OnAdRewarded -= rewardHandler;
+        };
+        rewardedAd.OnAdRewarded += rewardHandler;
+        
+        // Register close event handler
+        closeHandler = (adInfo) => {
+            Debug.Log("[AdsManager] Rewarded Ad Closed");
+            OnRewardedAdClosed?.Invoke();
+            _rewardTcs?.TrySetResult(true);
+            rewardedAd.LoadAd();
+            // Unsubscribe to prevent multiple subscriptions
+            rewardedAd.OnAdClosed -= closeHandler;
+        };
+        rewardedAd.OnAdClosed += closeHandler;
 
         rewardedAd.ShowAd();
         
         // Wait for ad completion with 60-second timeout
         try {
-            return await Task.WhenAny(_rewardTcs.Task, Task.Delay(100000)) == _rewardTcs.Task && 
-                   await _rewardTcs.Task;
+            return await _rewardTcs.Task;
         }
         catch (Exception ex) {
             Debug.LogError($"[AdsManager] Error showing rewarded ad: {ex.Message}");

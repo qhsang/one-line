@@ -27,10 +27,7 @@ public class RewardedAdsButton : MonoBehaviour{
     }
     
     AdsManager.OnRewardGranted += OnUnityAdsShowComplete;
-    AdsManager.OnRewardedAdClosed += () =>
-    {
-      _showAdButton.interactable = true;
-    };
+    AdsManager.OnRewardedAdClosed += AdsClosed;
     _showAdButton.interactable = true;
   }
   
@@ -41,7 +38,7 @@ public class RewardedAdsButton : MonoBehaviour{
   }
  
   // Implement the Show Listener's OnUnityAdsShowComplete callback method to determine if the user gets a reward:
-  public void OnUnityAdsShowComplete(LevelPlayReward levelPlayReward)
+  public void OnUnityAdsShowComplete()
   {
       PlayerData.instance.NumberOfHints ++;
       PlayerData.instance.SaveData();
@@ -57,11 +54,21 @@ public class RewardedAdsButton : MonoBehaviour{
     }
     balanceText.text = "" + PlayerData.instance.NumberOfHints;
   }
+  
+  private void AdsClosed()
+  {
+    _showAdButton.interactable = true;
+  }
  
-  void OnDestroy()
+  void OnDisable()
   {
     // Clean up the button listeners:
     AdsManager.OnRewardGranted -= OnUnityAdsShowComplete;
+    AdsManager.OnRewardedAdClosed -= AdsClosed;
+  }
+
+  private void OnDestroy()
+  {
     _showAdButton.onClick.RemoveAllListeners();
   }
 }

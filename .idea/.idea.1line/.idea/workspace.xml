@@ -5,102 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5ff115-1b4c-482b-9ea0-4ea681fcfcb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1line/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/CHANGELOG.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.156.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.156.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.156.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.156.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/GoogleRegistries.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/GoogleRegistries.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/LICENSE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.156_manifest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.156_manifest.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GeneratedLocalRepo/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Player_Skip_Fw.Png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Player_Skip_Fw.Png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/Casual logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/Casual logo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/icon sline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/icon sline.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_1praphic_line_upscayl_4x_realesrgan-x4plus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_1praphic_line_upscayl_4x_realesrgan-x4plus.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_icon_sline.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Logo/rsz_icon_sline.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/Scene/LevelSelection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/AdsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/RewardedAdsButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/Ads/RewardedAdsButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common/SgLib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common/SgLib/FileIO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/Common/SgLib/FileIO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_About.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_About.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_Constants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_Constants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_MenuManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_MenuManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_PluginManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_PluginManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_ProjectSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EM_ProjectSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileDependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileDependencies.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileSettings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Editor/EasyMobileSettings.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Packages.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Packages/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Packages/LICENSE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.md5.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.pom.sha1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.md5.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/1.0.0/easy-mobile-lite-1.0.0.srcaar.sha1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.md5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.md5.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.sha1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/Plugins/Android/m2repository/com/sglib/easymobile/easy-mobile-lite/maven-metadata.xml.sha1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/link.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/EM/link.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIControllerForGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OneLine/_Scripts/UIControllerForGame.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +133,7 @@
       <workItem from="1749651450054" duration="4857000" />
       <workItem from="1749901076394" duration="5782000" />
       <workItem from="1750866271420" duration="5227000" />
+      <workItem from="1750951083569" duration="1963000" />
     </task>
     <servers />
   </component>

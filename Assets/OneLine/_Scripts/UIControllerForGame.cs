@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -22,6 +24,7 @@ public class UIControllerForGame : MonoBehaviour
         InvokeRepeating("ShowBannerAd", 0, 10);
         CUtils.ChangeGameMusic();
         // UpdateNextPrevButton();
+        AdsManager.OnRewardGranted += UpdateHintOnWatchAds;
     }
 
     private void ShowBannerAd()
@@ -43,6 +46,11 @@ public class UIControllerForGame : MonoBehaviour
 
         stageText.text = "LV " + level;
         packageName.text = LevelData.worldNames[world - 1];
+    }
+    public async void UpdateHintOnWatchAds()
+    {
+        await Task.Delay(500);
+        UpdateHint();
     }
     
     private void UpdateNextPrevButton()
@@ -193,5 +201,11 @@ public class UIControllerForGame : MonoBehaviour
         }
 
         Invoke("ShowWinUi", 1.3f);
+    }
+
+    private void OnDestroy()
+    {
+        AdsManager.OnRewardGranted -= UpdateHintOnWatchAds;
+
     }
 }
